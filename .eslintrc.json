@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "react-hooks/exhaustive-deps": [
+      "warn",
+      {
+        "additionalHooks": "^(useStyles?)$"
+      }
+    ],
+    "react/self-closing-comp": "error"
+  }
+}
