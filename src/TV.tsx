@@ -7,11 +7,11 @@ import { proteins, sides, toppings, bases } from "./data";
 import { Items } from "./Items";
 
 const TV: React.FC = () => {
-  document.querySelector("html")!.style.fontSize = "54px";
+  document.querySelector("html")!.style.fontSize = "51px";
   return (
     <div className="tv">
       <div className="byob">
-        <h1 className="big">Build Your Bowl, $11</h1>
+        <h1>Build Your Bowl, $11</h1>
         <div>
           <h1>Base</h1>
           <Items items={bases} twoCols />

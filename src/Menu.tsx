@@ -7,8 +7,10 @@ import { Items } from "./Items";
 const Menu: React.FC = () => {
   return (
     <div className="menu">
-      <div style={{ flexBasis: 0, flexGrow: 5 }}>
-        <h1 className="big">Build Your Bowl, $11</h1>
+      <div
+        style={{ flexBasis: 0, flexGrow: 5, justifyContent: "space-between" }}
+      >
+        <h1>Build Your Bowl, $11</h1>
         <div>
           <h1>Base</h1>
           <Items items={bases} twoCols />

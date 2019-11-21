@@ -1,5 +1,3 @@
-import React from "react";
-
 export const bases = [
   {
     name: "Basmati Rice",
@@ -14,15 +12,26 @@ export const bases = [
   {
     name: "Khichdi, +$1",
     dietaryRestrictions: "contains dairy",
-    description:
-      "Risotto made with arborio rice, toor beans, turmeric and ghee."
+    description: "Risotto made with toor beans, turmeric and ghee."
   }
 ];
 export const proteins = [
   {
+    name: "chicken tinga masala",
+    dietaryRestrictions: " ",
+    description: "Shredded chicken in a Sauce made with caramelized onions",
+    variations: ""
+  },
+  {
+    name: "Lamb kofta, +$2",
+    dietaryRestrictions: " ",
+    description: "Lamb Meatballs seasoned with cumin and red pepper",
+    variations: ""
+  },
+  {
     name: "Tikka Masala",
     dietaryRestrictions: "contains nuts, dairy",
-    description: "Lighly spiced Tomato and Cashew Butter sauce.",
+    description: "Lightly spiced Tomato and Cashew Butter sauce.",
     variations: "(Chicken / Paneer / Tofu)"
   },
   {
@@ -77,8 +86,7 @@ export const smallPlates = [
   {
     name: "Khichdi, $7",
     dietaryRestrictions: "contains dairy",
-    description:
-      "Risotto made with arborio rice, toor beans, turmeric and ghee."
+    description: "Risotto made with toor beans, turmeric and ghee."
   },
   {
     name: "Samosa Chat, $8",
@@ -87,9 +95,27 @@ export const smallPlates = [
       "Filled with potatoes and topped with chickpeas, yogurt, sev and our assortment of chutneys."
   },
   {
-    name: "Pani Puri, $9",
-    dietaryRestrictions: "",
-    description:
-      "Crispy balls of hollow pastry filled with potatoes, black chickpeas and spicy mint flavored water."
+    name: "Mango Cheesecake, $4",
+    dietaryRestrictions: " contains dairy",
+    description: ""
+  }
+];
+
+export const drinks = [
+  {
+    name: "Mango Lassi, $5",
+    dietaryRestrictions: "contains dairy"
+  },
+  {
+    name: "Iced Oatmilk Chai, $4",
+    dietaryRestrictions: "contains dairy"
+  },
+  {
+    name: "Chhaas, $4",
+    dietaryRestrictions: "contains dairy"
+  },
+  {
+    name: "Hot Chai, $2.50",
+    dietaryRestrictions: "contains dairy"
   }
 ];

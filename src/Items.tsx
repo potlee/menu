@@ -7,7 +7,7 @@ export function Items({ items, twoCols }: any) {
         ({ name, dietaryRestrictions, description, variations }: any) => (
           <div
             style={{
-              paddingTop: "8px",
+              paddingBottom: "8px",
               flexBasis: twoCols ? "50%" : "100%",
               flexGrow: 1,
               display: "flex",
