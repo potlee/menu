@@ -2,42 +2,42 @@ export const bases = [
   {
     name: "Basmati Rice",
     dietaryRestrictions: "",
-    description: "Naturally fragrant, nutty and floral white rice."
+    description: "Naturally fragrant, nutty and floral white rice"
   },
   {
     name: "Mung Sprouts, +$1",
     dietaryRestrictions: "",
-    description: "With Lime, Toasted Cumin and black salt."
+    description: "With Lime, Toasted Cumin and black salt"
   },
   {
     name: "Khichdi, +$1",
     dietaryRestrictions: "contains dairy",
-    description: "Risotto made with toor beans, turmeric and ghee."
+    description: "Risotto made with toor beans, turmeric and ghee"
   }
 ];
 export const proteins = [
   {
     name: "chicken tinga masala",
     dietaryRestrictions: " ",
-    description: "Shredded chicken in a Sauce made with caramelized onions",
+    description: "Shredded chicken in a spicy curry sauce",
     variations: ""
   },
   {
     name: "Lamb kofta, +$2",
     dietaryRestrictions: " ",
-    description: "Lamb Meatballs seasoned with cumin and red pepper",
+    description: "Lamb meatballs with mint, cumin, red pepper",
     variations: ""
   },
   {
     name: "Tikka Masala",
     dietaryRestrictions: "contains nuts, dairy",
-    description: "Lightly spiced Tomato and Cashew Butter sauce.",
+    description: "Lightly spiced Tomato and Cashew Butter sauce",
     variations: "(Chicken / Paneer / Tofu)"
   },
   {
     name: "Saag",
     dietaryRestrictions: " ",
-    description: "Pureed Mustard leaves and Spinach with ginger.",
+    description: "Pureed Mustard leaves and Spinach with ginger",
     variations: "(Chicken / Paneer / Tofu)"
   }
 ];
@@ -46,7 +46,7 @@ export const sides = [
   {
     name: "Chana Masala",
     dietaryRestrictions: "",
-    description: "Chickpeas simmered in black tea and spices."
+    description: "Chickpeas simmered in black tea and spices"
   },
   {
     name: "Red Toor Beans",
@@ -56,17 +56,17 @@ export const sides = [
   {
     name: "Dal Makhani",
     dietaryRestrictions: "contains dairy",
-    description: "Black lentils slow cooked until creamy."
+    description: "Black lentils slow cooked until creamy"
   },
   {
     name: "Bhindi (Okra)",
     dietaryRestrictions: "",
-    description: "Okra cooked with onions and spices."
+    description: "Okra cooked with onions and spices"
   },
   {
     name: "Cauliflower, potato and Green Toor beans",
     dietaryRestrictions: "",
-    description: "With Tumeric, Coriander and Cumin."
+    description: "With Tumeric, Coriander and Cumin"
   }
 ];
 

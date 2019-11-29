@@ -3,39 +3,17 @@ import "./App.css";
 import logo from "./logo.png";
 import { proteins, sides, toppings, bases, smallPlates } from "./data";
 import { Items } from "./Items";
+import BYB from "./BYB";
 
 const Menu: React.FC = () => {
   return (
     <div className="menu">
-      <div
-        style={{ flexBasis: 0, flexGrow: 5, justifyContent: "space-between" }}
-      >
-        <h1>Build Your Bowl, $11</h1>
-        <div>
-          <h1>Base</h1>
-          <Items items={bases} twoCols />
-        </div>
-        <div>
-          <h1>protein</h1>
-          <Items items={proteins} twoCols />
-        </div>
-        <div className="sides">
-          <h1>sides</h1>
-          <Items items={sides} twoCols />
-        </div>
-        <div>
-          <span>
-            <h1>toppings{"  "}</h1>
-            <h4>ask for everything!</h4>
-          </span>
-          <Items items={toppings} twoCols />
-        </div>
-      </div>
+      <BYB />
       <div className="vr" />
       <div style={{ flexBasis: 0, flexGrow: 2.75 }}>
         <div>
           <img className="logo" src={logo} alt="" />
-          <h5>224 W 35th st, New York · 646-476-4124 · 11AM to 9PM</h5>
+          <h5>224 W 35th st, New York · 646-476-4214 · 11AM to 9PM</h5>
         </div>
         <div>
           <h1>Small Plates</h1>

@@ -35,6 +35,8 @@ div {
 .tv {
   width: 3840px;
   height: 2160px;
+  /* width: 100vw;
+  height: 100vh; */
   flex-direction: row;
 }
 
@@ -44,7 +46,7 @@ div {
 
 @media screen {
   .tv {
-    margin: 0.25in;
+    /* margin: 0.25in; */
     border: solid black 1px;
   }
   .menu {
