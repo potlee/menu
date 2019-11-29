@@ -2,17 +2,18 @@ import React from "react";
 
 export function Items({ items, twoCols }: any) {
   return (
-    <div style={{ flexWrap: "wrap", flexDirection: "row" }}>
+    <div className="items">
       {items.map(
         ({ name, dietaryRestrictions, description, variations }: any) => (
           <div
             style={{
-              paddingBottom: "8px",
+              paddingBottom: "0.5rem",
               flexBasis: twoCols ? "50%" : "100%",
               flexGrow: 1,
               display: "flex",
               flexDirection: "column",
-              justifyContent: "flex-start"
+              justifyContent: "flex-start",
+              minWidth: 250
             }}
           >
             <div

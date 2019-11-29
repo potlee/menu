@@ -7,7 +7,7 @@ import tv from "./tv.png";
 import BYB from "./BYB";
 
 const TV: React.FC = () => {
-  document.querySelector("html")!.style.fontSize = "51px";
+  // document.querySelector("html")!.style.fontSize = "51px";
   return (
     <div className="tv">
       <div style={{ padding: "1rem" }}>

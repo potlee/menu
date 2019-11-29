@@ -20,10 +20,27 @@ div {
   align-items: stretch;
 }
 
-.vr {
-  border-left: 0.125rem solid black;
-  margin: 0 1rem;
+.r {
+  border: 0.0625rem solid black;
+  margin: 1rem 0;
   align-self: stretch;
+}
+
+@media (min-width: 800px) {
+  .r {
+    margin: 0 1rem;
+  }
+}
+
+.items {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .items {
+    margin-bottom: 0.5rem;
+  }
 }
 
 @page {
@@ -33,10 +50,10 @@ div {
 }
 
 .tv {
-  width: 3840px;
-  height: 2160px;
-  /* width: 100vw;
-  height: 100vh; */
+  /* width: 3840px;
+  height: 2160px; */
+  width: 100vw;
+  height: 100vh;
   flex-direction: row;
 }
 
@@ -100,8 +117,14 @@ h5 {
 }
 
 .menu {
-  width: 14in;
-  height: 8.5in;
+  /* width: 14in;
+  height: 8.5in; */
   padding: 1.25rem;
-  flex-direction: row;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 800px) {
+  .menu {
+    flex-direction: row;
+  }
 }
