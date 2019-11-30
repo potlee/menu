@@ -10,7 +10,7 @@ const Menu: React.FC = () => {
     <div className="menu">
       <BYB />
       <div className="r" />
-      <div style={{ flexBasis: 0, flexGrow: 2.75 }}>
+      <div className="other">
         <div>
           <img className="logo" src={logo} alt="" />
           <h5>224 W 35th st, New York · 646-476-4214 · 11AM to 9PM</h5>

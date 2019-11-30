@@ -37,9 +37,21 @@ div {
   flex-direction: row;
 }
 
-@media (max-width: 800px) {
-  .items {
-    margin-bottom: 0.5rem;
+.other {
+  flex-grow: 2.75;
+}
+
+.byb {
+  flex-grow: 5;
+  justify-content: "space-between";
+}
+
+@media (min-width: 800px) {
+  .byb {
+    flex-basis: 0;
+  }
+  .other {
+    flex-basis: 0;
   }
 }
 

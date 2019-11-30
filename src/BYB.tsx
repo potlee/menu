@@ -5,13 +5,7 @@ import { Items } from "./Items";
 
 const BYB: React.FC = () => {
   return (
-    <div
-      style={{
-        flexBasis: 0,
-        flexGrow: 5,
-        justifyContent: "space-between"
-      }}
-    >
+    <div className="byb">
       <h1>Build Your Bowl, $11</h1>
       <div>
         <h1>Base</h1>
