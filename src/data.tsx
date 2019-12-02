@@ -59,7 +59,7 @@ export const sides = [
     description: "Black lentils slow cooked until creamy"
   },
   {
-    name: "Bhindi (Okra)",
+    name: "Bhindi (Okra), $1",
     dietaryRestrictions: "",
     description: "Okra cooked with onions and spices"
   },
@@ -67,6 +67,11 @@ export const sides = [
     name: "Cauliflower, potato and Green Toor beans",
     dietaryRestrictions: "",
     description: "With Tumeric, Coriander and Cumin"
+  },
+  {
+    name: "Eggplant",
+    dietaryRestrictions: "",
+    description: "With caramelized onions and green onions"
   }
 ];
 

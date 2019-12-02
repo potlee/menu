@@ -41,7 +41,7 @@ const App: React.FC = () => {
             >
               <img src={logo} alt="ambo" style={{ height: "3rem" }} />
               <div style={{ flexGrow: 1 }} />
-              <a>
+              <a href="https://trycaviar.app.link/zQvVVLIOlZ">
                 <h2 style={{ color: "white" }}>order online</h2>
               </a>
             </div>
