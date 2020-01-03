@@ -17,18 +17,6 @@ export const bases = [
 ];
 export const proteins = [
   {
-    name: "chicken tinga masala",
-    dietaryRestrictions: " ",
-    description: "Shredded chicken in a spicy curry sauce",
-    variations: ""
-  },
-  {
-    name: "Lamb kofta, +$2",
-    dietaryRestrictions: " ",
-    description: "Lamb meatballs with mint, cumin, red pepper",
-    variations: ""
-  },
-  {
     name: "Tikka Masala",
     dietaryRestrictions: "contains nuts, dairy",
     description: "Lightly spiced Tomato and Cashew Butter sauce",
@@ -39,6 +27,18 @@ export const proteins = [
     dietaryRestrictions: " ",
     description: "Pureed Mustard leaves and Spinach with ginger",
     variations: "(Chicken / Paneer / Tofu)"
+  },
+  {
+    name: "Biryani Chicken, +$1",
+    dietaryRestrictions: " ",
+    description: "Chicken with biryani spices",
+    variations: ""
+  },
+  {
+    name: "Lamb kofta, +$2",
+    dietaryRestrictions: " ",
+    description: "Lamb meatballs with mint, cumin, red pepper",
+    variations: ""
   }
 ];
 
@@ -49,29 +49,29 @@ export const sides = [
     description: "Chickpeas simmered in black tea and spices"
   },
   {
-    name: "Red Toor Beans",
-    dietaryRestrictions: "",
-    description: "In a green garlic broth."
-  },
-  {
     name: "Dal Makhani",
     dietaryRestrictions: "contains dairy",
     description: "Black lentils slow cooked until creamy"
   },
-  {
-    name: "Bhindi (Okra), $1",
-    dietaryRestrictions: "",
-    description: "Okra cooked with onions and spices"
-  },
-  {
-    name: "Cauliflower, potato and Green Toor beans",
-    dietaryRestrictions: "",
-    description: "With Tumeric, Coriander and Cumin"
-  },
+  // {
+  //   name: "Red Toor Beans",
+  //   dietaryRestrictions: "",
+  //   description: "In a green garlic broth."
+  // },
   {
     name: "Eggplant",
     dietaryRestrictions: "",
     description: "With caramelized onions and green onions"
+  },
+  // {
+  //   name: "Bhindi (Okra), +$1",
+  //   dietaryRestrictions: "",
+  //   description: "Okra cooked with onions and spices"
+  // },
+  {
+    name: "Cauliflower, potato, Toor beans",
+    dietaryRestrictions: "",
+    description: "With Tumeric, Coriander and Cumin"
   }
 ];
 
@@ -84,12 +84,19 @@ export const toppings = [
 
 export const smallPlates = [
   {
-    name: "Handvo, $4",
-    dietaryRestrictions: "contains dairy, no eggs",
-    description: "Lentil Zucchini Quiche."
+    name: "Chicken Biryani, $13",
+    dietaryRestrictions: "contains dairy"
   },
   {
-    name: "Khichdi, $7",
+    name: "Lamb kofta Biryani, $14",
+    dietaryRestrictions: "contains dairy"
+  },
+  {
+    name: "Veg Biryani, $13",
+    dietaryRestrictions: "contains dairy"
+  },
+  {
+    name: "Khichdi, $8",
     dietaryRestrictions: "contains dairy",
     description: "Risotto made with toor beans, turmeric and ghee."
   },
@@ -98,11 +105,6 @@ export const smallPlates = [
     dietaryRestrictions: "contains dairy",
     description:
       "Filled with potatoes and topped with chickpeas, yogurt, sev and our assortment of chutneys."
-  },
-  {
-    name: "Mango Cheesecake, $4",
-    dietaryRestrictions: " contains dairy",
-    description: ""
   }
 ];
 
@@ -120,7 +122,7 @@ export const drinks = [
     dietaryRestrictions: "contains dairy"
   },
   {
-    name: "Hot Chai, $2.50",
+    name: "Hot Chai, $3",
     dietaryRestrictions: "contains dairy"
   }
 ];

@@ -16,7 +16,6 @@ const Menu: React.FC = () => {
           <h5>224 W 35th st, New York · 646-476-4214 · 11AM to 9PM</h5>
         </div>
         <div>
-          <h1>Small Plates</h1>
           <Items items={smallPlates} />
         </div>
         <div>

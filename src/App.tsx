@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import TV from "./TV";
 import TV2 from "./TV2";
+import TV3 from "./TV3";
 import Menu from "./Menu";
 import logo from "./logo-white.png";
 import prince from "./prince.jpg";
@@ -15,10 +15,10 @@ const App: React.FC = () => {
     <Router>
       <Switch>
         <Route path="/tv">
-          <TV />
+          <TV2 />
         </Route>
         <Route path="/tv2">
-          <TV2 />
+          <TV3 />
         </Route>
         <Route path="/menu">
           <Menu />

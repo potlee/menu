@@ -65,15 +65,16 @@ div {
 
 @page {
   size: 3840px 2160px;
-  size: legal landscape;
+  /* size: legal landscape; */
+  /* size: 8.5in 5.5in; */
   margin: 0;
 }
 
 .tv {
-  /* width: 3840px;
-  height: 2160px; */
-  width: 100vw;
-  height: 100vh;
+  width: 3840px;
+  height: 2160px;
+  /* width: 100vw;
+  height: 100vh; */
   flex-direction: row;
 }
 
