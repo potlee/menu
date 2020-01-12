@@ -36,7 +36,7 @@ export const proteins = [
   },
   {
     name: "Lamb kofta, +$2",
-    dietaryRestrictions: " ",
+    dietaryRestrictions: "contains wheat",
     description: "Lamb meatballs with mint, cumin, red pepper",
     variations: ""
   }
@@ -84,27 +84,34 @@ export const toppings = [
 
 export const smallPlates = [
   {
-    name: "Chicken Biryani, $13",
-    dietaryRestrictions: "contains dairy"
-  },
-  {
-    name: "Lamb kofta Biryani, $14",
-    dietaryRestrictions: "contains dairy"
-  },
-  {
-    name: "Veg Biryani, $13",
-    dietaryRestrictions: "contains dairy"
+    name: "Biryani",
+    variations: "(Chicken $13 / Lamb Kofta $14 / Veg $13)",
+    dietaryRestrictions: "contains dairy",
+    description: "Rice toasted in ghee, whole spices, caramelized onions"
   },
   {
     name: "Khichdi, $8",
     dietaryRestrictions: "contains dairy",
-    description: "Risotto made with toor beans, turmeric and ghee."
+    description: "Risotto made with toor beans, turmeric and ghee"
   },
   {
     name: "Samosa Chat, $8",
     dietaryRestrictions: "contains dairy",
-    description:
-      "Filled with potatoes and topped with chickpeas, yogurt, sev and our assortment of chutneys."
+    description: "Samosa, chickpeas, sweet yogurt, sev, chutneys"
+  },
+  {
+    name: "Sprouts Chat, $8",
+    dietaryRestrictions: "contains dairy",
+    description: "Mung sprouts, chickpeas, sweet yogurt, sev, chutneys"
+  },
+  {
+    name: "Dal Makhani Bowl, $8",
+    dietaryRestrictions: "contains dairy",
+    description: ""
+  },
+  {
+    name: "Chana Masala Bowl, $8",
+    description: ""
   }
 ];
 
@@ -114,8 +121,7 @@ export const drinks = [
     dietaryRestrictions: "contains dairy"
   },
   {
-    name: "Iced Oatmilk Chai, $4",
-    dietaryRestrictions: "contains dairy"
+    name: "Iced Oatmilk Chai, $4"
   },
   {
     name: "Chhaas, $4",
@@ -124,5 +130,6 @@ export const drinks = [
   {
     name: "Hot Chai, $3",
     dietaryRestrictions: "contains dairy"
-  }
+  },
+  { name: "La croix, $2" }
 ];

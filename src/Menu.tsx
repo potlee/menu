@@ -15,6 +15,7 @@ const Menu: React.FC = () => {
           <img className="logo" src={logo} alt="" />
           <h5>224 W 35th st, New York · 646-476-4214 · 11AM to 9PM</h5>
         </div>
+        <div className="r hr" />
         <div>
           <Items items={smallPlates} />
         </div>

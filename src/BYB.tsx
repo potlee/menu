@@ -16,7 +16,7 @@ const BYB = ({ hideDescription = false }) => {
         <Items items={proteins} twoCols hideDescription={hideDescription} />
       </div>
       <div>
-        <h1>sides</h1>
+        <h1>side</h1>
         <Items items={sides} twoCols hideDescription={hideDescription} />
       </div>
       <div>
