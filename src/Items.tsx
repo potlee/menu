@@ -1,13 +1,13 @@
 import React from "react";
 
-export function Items({ items, twoCols, hideDescription }: any) {
+export function Items({ items, twoCols, hideDescription, style }: any) {
   return (
-    <div className="items">
+    <div className="items" style={style}>
       {items.map(
         ({ name, dietaryRestrictions, description, variations }: any) => (
           <div
             style={{
-              paddingBottom: "0.25rem",
+              paddingBottom: "0.5rem",
               flexBasis: twoCols ? "50%" : "100%",
               flexGrow: 1,
               display: "flex",
@@ -24,10 +24,10 @@ export function Items({ items, twoCols, hideDescription }: any) {
                 alignItems: "baseline"
               }}
             >
-              <h2 style={{ marginRight: "0.5rem" }}>{name}</h2>
+              <h3 style={{ marginRight: "0.5rem" }}>{name}</h3>
               <h4>{dietaryRestrictions}</h4>
             </div>
-            <h2>{variations}</h2>
+            <h3>{variations}</h3>
             {!hideDescription && <h4>{description}</h4>}
           </div>
         )

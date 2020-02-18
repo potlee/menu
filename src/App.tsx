@@ -6,9 +6,10 @@ import TV2 from "./TV2";
 import TV3 from "./TV3";
 import Menu from "./Menu";
 import logo from "./logo-white.png";
-import prince from "./prince.jpg";
+import prince from "./diamond.jpg";
 import bybWide from "./byb-wide.png";
 import byb from "./byb.png";
+import Catering from "./Catering";
 
 const App: React.FC = () => {
   return (
@@ -23,13 +24,18 @@ const App: React.FC = () => {
         <Route path="/menu">
           <Menu />
         </Route>
+        <Route path="/catering">
+          <Catering />
+        </Route>
         <Route path="/">
           <div
             style={{
               background: `url(${prince})`,
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
-              height: "100vw"
+              height: "100vw",
+              maxHeight: "70vh",
+              backgroundPosition: "center"
             }}
           >
             <div
@@ -39,10 +45,10 @@ const App: React.FC = () => {
                 alignItems: "flex-start"
               }}
             >
-              <img src={logo} alt="ambo" style={{ height: "3rem" }} />
+              <img src={logo} alt="ambo" style={{ height: "2.5rem" }} />
               <div style={{ flexGrow: 1 }} />
               <a href="https://trycaviar.app.link/zQvVVLIOlZ">
-                <h2 style={{ color: "white" }}>order online</h2>
+                <h1 style={{ color: "white" }}>order online</h1>
               </a>
             </div>
           </div>

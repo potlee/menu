@@ -8,20 +8,29 @@ const BYB = ({ hideDescription = false }) => {
     <div className="byb">
       <h1>Build Your Bowl, $11</h1>
       <div>
-        <h1>Base</h1>
+        <span>
+          <h2>1. Base</h2>
+          <h4> choose one or half and half </h4>
+        </span>
         <Items items={bases} twoCols hideDescription={hideDescription} />
       </div>
       <div>
-        <h1>protein</h1>
+        <span>
+          <h2>2. protein</h2>
+          {/* <h4> choose one. extra protein, +$2</h4> */}
+        </span>
         <Items items={proteins} twoCols hideDescription={hideDescription} />
       </div>
       <div>
-        <h1>side</h1>
+        <span>
+          <h2>3. side</h2>
+          {/* <h4> choose one</h4> */}
+        </span>
         <Items items={sides} twoCols hideDescription={hideDescription} />
       </div>
       <div>
         <span>
-          <h1>toppings{"  "}</h1>
+          <h2>4. toppings{"  "}</h2>
           <h4>ask for everything!</h4>
         </span>
         <Items items={toppings} twoCols hideDescription={hideDescription} />
